@@ -59,4 +59,8 @@ class Products extends Model
                     ->withPivot('quantity') // Lấy thêm thông tin quantity từ bảng pivot
                     ->withTimestamps(); // Lưu thời gian tạo/cập nhật trong bảng pivot
     }
+    public function comments()
+{
+    return $this->hasMany(Comment::class);
+}
 }

@@ -354,19 +354,21 @@ class AdminController extends Controller
            
         ]);
     
-        $category = Category_service::find($id);
-        if ($category) {
+        $category_sv = Category_service::find($id);
+        if ($category_sv) {
             $data = $request->only(['name', 'status']);
            
     
-            $category->update($data);
+            $category_sv->update($data);
     
             return redirect()->route('category_sv_admin')->with('success', 'Danh mục đã được cập nhật thành công.');
         } else {
             return redirect()->route('category_sv_admin')->with('error', 'Không tìm thấy danh mục.');
         }
     }
-
+// //     ||       ============================================================
+// //     ||                              ORDER
+// //     \/       ============================================================
 
     public function order()
     {

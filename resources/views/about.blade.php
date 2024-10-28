@@ -254,14 +254,6 @@
         </section>
         <!-- End:: Team Section -->
         
-        <!-- Begin:: Instagram Section -->
-        <div class="my_instagram ovelay">
-            <a href="https://www.instagram.com/themewar/" target="_blank"><img src="makeover/images/instagram/1.jpg" alt="instagram"></a>
-            <a href="https://www.instagram.com/themewar/" target="_blank"><img src="makeover/images/instagram/2.jpg" alt="instagram"></a>
-            <a href="https://www.instagram.com/themewar/" target="_blank"><img src="makeover/images/instagram/3.jpg" alt="instagram"></a>
-            <a href="https://www.instagram.com/themewar/" target="_blank"><img src="makeover/images/instagram/4.jpg" alt="instagram"></a>
-            <a href="https://www.instagram.com/themewar/" target="_blank"><img src="makeover/images/instagram/5.jpg" alt="instagram"></a>
-            <a href="https://www.instagram.com/themewar/" target="_blank"><img src="makeover/images/instagram/6.jpg" alt="instagram"></a>
-        </div>
+
 
 @endsection

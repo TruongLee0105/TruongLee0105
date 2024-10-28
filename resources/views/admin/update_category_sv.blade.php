@@ -6,21 +6,21 @@
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
-                <h2>Thêm Nhãn Hàng</h2>
+                <h2>Thêm dịch vụ</h2>
 
-                <form class="form-container" action="{{ route('update_category', $allCategories->id) }}" method="POST"
+                <form class="form-container" action="{{ route('update_category_sv', $allService->id) }}" method="POST"
                     enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     <div class="mb-3">
-                        <label class="form-label" for="name">Tên nhãn hàng</label>
-                        <input class="form-control" type="text" id="name" name="name" value="{{ $allCategories->name }}"
+                        <label class="form-label" for="name">Tên dịch vụ</label>
+                        <input class="form-control" type="text" id="name" name="name" value="{{ $allService->name }}"
                             required>
                     </div>
 
                     
 
-                    <button class="btn btn-primary" type="submit">Sửa tên nhãn hàng</button>
+                    <button class="btn btn-primary" type="submit">Sửa tên dịch vụ</button>
                 </form>
             </div>
             <div class="col-lg-2"></div>

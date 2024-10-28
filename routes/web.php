@@ -25,6 +25,8 @@ Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
 Route::get('/blog', [BlogController::class, 'blog'])->name('blog');
 Route::get('/package', [PackageController::class, 'package'])->name('package');
 Route::get('/products/{id}', [ProductsController::class, 'detail'])->name('detail');
+Route::post('/product/{id}/comment', [ProductsController::class, 'comment'])->name('product.comment');
+
 
 //cart
 Route::middleware(['auth'])->group(function () {

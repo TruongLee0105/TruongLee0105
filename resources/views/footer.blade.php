@@ -1,6 +1,6 @@
 <footer class="footer_01 fm_dark">
             <div class="layer_img move_anim_two">
-            <img src="{{ asset('images/bg/footer.png') }}" alt="Footer Image" />
+            <img src="{{ asset('makeover/images/bg/footer.png') }}" alt="Footer Image" />
             </div>
             <div class="container">
                 <div class="row">
